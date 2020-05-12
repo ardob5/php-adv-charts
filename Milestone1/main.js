@@ -8,9 +8,9 @@ function printLineChart(){
       var myChart = new Chart(ctx, {
         type: 'line',
         data: {
-          labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+          labels: moment.months(),
           datasets: [{
-            label: 'Vendite',
+            label: 'Sales',
             data: myData,
             backgroundColor: [
               'rgba(47, 248, 124, 1)'
