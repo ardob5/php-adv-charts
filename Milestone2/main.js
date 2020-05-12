@@ -51,12 +51,10 @@ function printPieChart(){
             backgroundColor: [
               '#4281A4',
               '#20A39E',
-              '#DFD6A7',
               '#F4B860',
               '#C83E4D'
             ],
             borderColor: [
-              '#000',
               '#000',
               '#000',
               '#000',
