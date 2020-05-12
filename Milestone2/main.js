@@ -11,7 +11,14 @@ function printLineChart(){
           labels: moment.months(),
           datasets: [{
             label: 'Sales',
-            data: myData.fatturato.data
+            data: myData.fatturato.data,
+            backgroundColor: [
+              '#4281A4'
+            ],
+            borderColor: [
+              'rgba(255, 0, 0,1)'
+            ],
+            borderWidth: 2
           }]
         },
         options: {
@@ -40,8 +47,22 @@ function printPieChart(){
         data: {
           labels: myData.labels,
           datasets: [{
-            label: 'Sales',
-            data: myData.sales
+            data: myData.sales,
+            backgroundColor: [
+              '#4281A4',
+              '#20A39E',
+              '#DFD6A7',
+              '#F4B860',
+              '#C83E4D'
+            ],
+            borderColor: [
+              '#000',
+              '#000',
+              '#000',
+              '#000',
+              '#000'
+            ],
+            borderWidth: 2
           }]
         },
         options: {
