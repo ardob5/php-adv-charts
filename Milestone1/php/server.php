@@ -1,4 +1,4 @@
 <?php
   header('Content-Type: application/json');
-  include 'database.php';
+  include 'db.php';
   echo json_encode($data);

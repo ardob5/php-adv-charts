@@ -7,10 +7,10 @@
     $labels[] = $nameAgent;
     $sales[] = $value;
   }
-  $myData=[
+  $myData = [
     "fatturato" => $graphs["fatturato"],
     "typeAgents" => "pie",
-    "labels"    => $labels,
-    "sales"      => $sales
+    "labels" => $labels,
+    "sales" => $sales
   ];
   echo json_encode($myData);

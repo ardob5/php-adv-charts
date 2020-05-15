@@ -6,12 +6,12 @@ function printLineChart(){
     method: 'GET',
     success: function(myData){
       var myChart = new Chart (ctx, {
-        type: myData.fatturato.type,
+        type: myData['fatturato']['type'],
         data: {
           labels: moment.months(),
           datasets: [{
             label: 'Sales',
-            data: myData.fatturato.data,
+            data: myData['fatturato']['data'],
             backgroundColor: [
               '#4281A4'
             ],
